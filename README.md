@@ -1,6 +1,6 @@
-# PLM Kinetic Control
+# TD Watchdog
 
-Sketch to control the kinetic over MQTT.
+Example to integrate watchdog and controlled shutdown into TouchDesigner sketches.
 
 ## Requirements
 
@@ -8,7 +8,7 @@ Sketch to control the kinetic over MQTT.
 
 ## Content
 
-| Directory      | Description                                                                      |
+| Components     | Description                                                                      |
 | :------------- | :------------------------------------------------------------------------------- |
 | playground.toe | Everything wired up                                                              |
 | shutdown       | Receives shutdown trigger and schedules timer to send "halt" via UDP to watchdog |
