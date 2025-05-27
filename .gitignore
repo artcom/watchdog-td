@@ -1,0 +1,11 @@
+# Touch Designer
+Backup/
+CrashAutoSave.*.toe
+config.json
+*.log*
+TDimportCache
+
+# Python
+__pycache__
+venv
+heartbeat.xml
