@@ -1,2 +1,3 @@
-def onValueChange(channel, sampleIndex, val, prev):
+def onOnToOff(channel, sampleIndex, val, prev):
     op('udpout').sendBytes('halt')
+

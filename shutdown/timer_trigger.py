@@ -3,5 +3,6 @@ def onInitialize(timerOp, callCount):
 
 
 def onDone(timerOp, segment, interrupt):
-    # op.Kinetic.ext.TcpController.set_auto()
+    # called when shutdown finished
+    op.ShutdownService.par.Shutdown.pulse()
     return
