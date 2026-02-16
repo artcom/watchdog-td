@@ -13,3 +13,6 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[tool.setuptools.package-data]
+watchdog-td = ["*.tox"]
