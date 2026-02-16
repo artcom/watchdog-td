@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 
 
 def onCycle(timerOp, segment, cycle):
-    path = op('config').result['heartbeatPath']
+    path = str(parent().par.Heartbeatpath)
 
     secs = datetime.now(timezone.utc).timestamp()
     xml = f'<Heartbeat secondsSince1970="{secs}"></Heartbeat>'
