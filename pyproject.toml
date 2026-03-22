@@ -1,0 +1,22 @@
+[project]
+name = "watchdog-td"
+version = "0.1.0"
+description = "TD Component to integrate watchdog heartbeat"
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    {name = "Julian Krumow", email = "julian.krumow@artcom.de"},
+]
+
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.tox"]

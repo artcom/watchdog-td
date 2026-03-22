@@ -1,24 +1,24 @@
 # TD Watchdog
 
-Component to integrate watchdog heartbeat
+TD Component to integrate watchdog heartbeat
 
 ## Requirements
 
-- Touchdesigner  >= 2023.12370
+- Touchdesigner  >= 2025
 
 ## Installation
 
-Copy this directory into the "external" folder on the base directory of your project:
+Add this dependency to your `requirements.txt`:
 
 ```sh
-./external/watchdog
+watchdog-td @ git+https://github.com/artcom/watchdog-td.git@0.1.0#egg=watchdog-td
 ```
 
 Load the tox into your project:
 
-1. drag into your project
-2. Common -> Enable External .tox = ON
-3. Common -> External .tox Path = set to tox file
+1. create a baseCOMP
+2. Common -> External .tox Path = `mod.watchdog_td.ToxFile`
+3. Common -> Enable External .tox = ON
 4. Common -> Reload custom parameters = OFF
 
 ## Usage
