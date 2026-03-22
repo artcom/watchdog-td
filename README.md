@@ -28,4 +28,4 @@ Parameters on page "Input":
 | Parameter            | Description                                       |
 | :------------------- | :------------------------------------------------ |
 | `HeartbeatFrequency` | The frequency the `heartbeat.xml` will be written |
-| `HeartbeatPath`      | The path the `Ïheartbeat.xml will` be written to  |
+| `HeartbeatPath`      | The path the `heartbeat.xml will` be written to   |
